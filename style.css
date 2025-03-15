@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 50px;
+    background:black ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#nav-logo{
+    height: 35px;
+    width: 110px;
+    border: 1.5px solid transparent;
+}
+#nav-logo:hover{
+    border: 1.5px solid white;
+}
+#img{
+    height: 35px;
+    width: 100%;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    
+}
+.address{
+    border: 1.5px solid transparent;
+    margin-left: 3.5px;
+
+}
+.address:hover{
+    border-color: white;
+}
+#address1{
+    margin-right: 15px;
+}
+.locadd{
+    display: flex;
+}
+
+
+#address2{
+    margin-right: 15px;
+}
+
+.mix3{
+    
+    display: flex;
+}
+
+#opt1{
+    
+   
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+
+}
+
+#searchbox{
+    font-size: 1rem;
+}
+
+#magglass{
+    height: auto;
+    width: 30px;
+    display: flex;
+    font-size: 1.2rem;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+}
+.language{
+
+    display: flex;
+    border: 1.5px solid transparent;
+}
+.language:hover{
+    border-color: white;
+    border-radius: 4px;
+}
+#langsymb{
+   margin-top: 25px;
+   font-size: large;
+    
+}
+#langtext{
+    margin-top: 25px;
+    font-size: large;
+}
+#langsymb2{
+    margin-top: 25px;
+    font-size: large;
+}
+.login{
+    border: 1.5px solid transparent;
+}
+.oneline{
+    display: flex;
+   
+}
+.login:hover{
+    border-color: white;
+}
+#signin1{
+    font-size: 14px;
+}
+#signin2{
+    font-size: large;
+}
+#signinsymb{
+    margin-top: 3px;
+}
+.returns{
+    border: 1.5px solid transparent;
+}
+.returns:hover{
+    border-color: white;
+}
+#orders1{
+    
+
+    font-size: 14px;
+}
+#orders1:hover{
+    border-color: white;
+}
+#orders2{
+    font-size: large;
+}
+.cart{
+    border: 1.5px solid transparent;
+    display: flex;
+    
+}
+.cart:hover{
+    border-color: white;
+    
+}
+#cart1{
+    font-size: large;
+}
+#cart2{
+    font-size: large;
+}
+.mix3{
+    border: 2px solid transparent;
+}
+.mix3:hover{
+    border-color: #febd68;
+}
+.panel{
+    
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+   
+    justify-content: space-evenly;
+}
+.alllogo{
+    display: flex;
+    border: 2px solid transparent;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.alllogo:hover{
+    border-color: white;
+}
+#edit05 {
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+}
+
+
+#alltext11 p{
+    height: 38px;
+    display: inline-block;
+    
+    margin-right: 15px;
+    font-size: 0.85rem;
+    
+
+
+  }
+  #alltext11{
+   
+    width: 70%;
+    
+    
+  }
+  #all{
+    
+    padding-left: 10px;
+  }
+  #allicon{
+  
+    
+    padding-left: 10px;
+  }
+ 
+  #alltext2{
+    height: 38px;
+    margin-left: 100px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  #alltext2:hover{
+    border-color: white;
+  }
+  
+  
+  #heroimg{
+   background-image: url(hero_image.jpg);
+   background-size: cover;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.herobar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+
+}
+#seconddiv{
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 220px;
+    width: 98%;
+    font-size: 0.85rem;
+    
+    
+}
+#seconddiv a{
+    text-decoration:underline;
+    color: #007185;
+
+
+}
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin-top: 14px;
+    height: 400px;
+    width: 23%;
+    
+    background-color: wheat;
+    
+   
+}
+.box1 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img1{
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box1 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box1all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.box2 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img2{
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box2 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box2all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.box3 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img3{
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box3 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box3all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.box4 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img4{
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box4 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box4all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.box5 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img5{
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box5 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box5all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.box6 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img6{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box6 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box6all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+.box7 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img7{
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box7 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box7all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.box8 h2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img8{
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.box8 p{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: #007185;
+    font-weight: normal;
+}
+.box8all{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#miniline{
+    height: 42px;
+    font-size: 0.85rem;
+    color: white;
+    background:#2f4c6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+}
+#miniline :hover{
+    border: 2px solid white;
+}
+.base{
+    height: 750px;
+    background-color: black;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel{
+    height: 420px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footpanel1{
+    height:320px;
+    background-color:#222f3d ;
+    color: #dddddd;
+    font-size: 1.1rem;
+    padding-top: 35px;
+    
+}
+#footpanel1 a {
+    color: #dddddd;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 19px;
+
+}
+#footpanel1 p {
+    font-weight: bold;
+}
+#footpanel2{
+    height:320px;
+    background-color:#222f3d ;
+    color: #dddddd;
+    font-size: 1.1rem;
+    
+    padding-top: 35px;
+    
+}
+#footpanel2 a {
+    color: #dddddd;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 19px;
+
+}
+#footpanel2 p {
+    font-weight: bold;
+}
+
+#footpanel3{
+    height:320px;
+    background-color:#222f3d ;
+    color: #dddddd;
+    font-size: 1.1rem;
+    padding-top: 35px;
+    
+}
+#footpanel3 a {
+    color: #dddddd;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 19px;
+
+}
+#footpanel3 p {
+    font-weight: bold;
+}
+
+#footpanel4{
+    height:320px;
+    background-color:#222f3d ;
+    color: #dddddd;
+    font-size: 1.1rem;
+    padding-top: 35px;
+    
+}
+#footpanel4 a {
+    color: #dddddd;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 19px;
+
+}
+#footpanel4 p {
+    font-weight: bold;
+}
+.twoinone{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mount{
+    height: 68px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#mount1{
+    height: 60px;
+    width: 96px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+#mount2{
+    height:38px;
+   display: flex;
+   align-items: center;
+    color: #dddddd;
+    margin: 35px;
+    border: 1.5px solid white;
+    
+}
+#mount3{
+    height:38px;
+    
+    display: flex;
+    align-items: center;
+    color: #dddddd; 
+    border: 1.5px solid white;
+}
+.copyright{
+padding-top: 35px;
+    align-items: center;
+    height: 76px;
+    background-color: #131A22;
+    color: #dddddd;
+}
+#copyright1{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.95rem;
+}
+#copyright2{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+}
+
+
